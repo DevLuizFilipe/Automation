@@ -1,0 +1,35 @@
+- hosts: wordpress
+  handlers:
+  tasks:
+
+    - name: Executa arquivo de docker-compose do Wordpress
+      shell: docker-compose up -d --force-recreate
+      args:
+        chdir: /opt/wordpress/
+
+- hosts: prometheus
+  handlers:
+  tasks:
+
+    - name: Copiar arquivo de configuração do prometheus
+      copy:
+        src: /configs/prometheus.cnf
+        dest: /etc/prometheus/prometheus.cnf
+        owner: root
+        group: root
+        mode: 0644
+      become: true
+
+    - name: Executa arquivo de docker-compose do Prometheus
+      shell: docker-compose up -d --force-recreate
+      args:
+        chdir: /opt/prometheus/
+
+- hosts: grafana
+  handlers:
+  tasks:
+
+    - name: Executa arquivo de docker-compose do Prometheus
+      shell: docker-compose up -d --force-recreate
+      args:
+        chdir: /opt/grafana/
