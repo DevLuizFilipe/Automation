@@ -1,21 +1,14 @@
-[wordpress]
-192.168.1.51
-[grafana]
-192.168.1.52
 [prometheus]
-192.168.1.53
+192.168.1.50
+[grafana]
+192.168.1.51
 
-[wordpress:vars]
+[prometheus:vars]
 ansible_user=vagrant
 ansible_ssh_private_key_file=/home/vagrant/id_rsa
 ansible_python_interpreter=/usr/bin/python3
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 [grafana:vars]
-ansible_user=vagrant
-ansible_ssh_private_key_file=/home/vagrant/id_rsa
-ansible_python_interpreter=/usr/bin/python3
-ansible_ssh_common_args='-o StrictHostKeyChecking=no'
-[prometheus:vars]
 ansible_user=vagrant
 ansible_ssh_private_key_file=/home/vagrant/id_rsa
 ansible_python_interpreter=/usr/bin/python3

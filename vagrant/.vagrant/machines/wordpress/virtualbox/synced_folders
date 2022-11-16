@@ -1,0 +1,1 @@
+{"virtualbox":{"/configs/keys":{"guestpath":"/configs/keys","hostpath":"C:/Users/lfeli/Documents/Automation/Automation/vagrant/configs/keys","disabled":false,"__vagrantfile":true},"/opt/wordpress/":{"guestpath":"/opt/wordpress","hostpath":"C:/Users/lfeli/Documents/Automation/Automation/docker-compose/wordpress","disabled":false,"__vagrantfile":true}}}
