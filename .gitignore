@@ -1,4 +1,4 @@
-./vagrant/.vagrant/
-./vagrant/ubuntu-bionic-18.04-cloudimg-console.log
-./docker-compose/grafana/data
-./docker-compose/prometheus/data
+vagrant/.vagrant/
+vagrant/ubuntu-bionic-18.04-cloudimg-console.log
+docker-compose/grafana/data
+docker-compose/prometheus/data
