@@ -5,7 +5,7 @@ São requisitos obrogátorios para a execução desse projeto:
 
 Para iniciar o projeto basta rodar o comando
 vagrant up
-# dentro do diretório vagrant que possui o arquivo Vagrantfile
+dentro do diretório vagrant que possui o arquivo Vagrantfile
 
 Em seguida é necessário aguardar o provisionamento dos serviços que estão funcionando na seguinte arquitetura:
 3 máquinas virtuais que são provisionadas pelo vagrant utilizando S.O. Ubuntu
