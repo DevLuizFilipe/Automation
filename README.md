@@ -3,8 +3,8 @@ São requisitos obrogátorios para a execução desse projeto:
 - Virtual box
 - Vagrant
 
-Para iniciar o projeto basta rodar o comando
-vagrant up
+Para iniciar o projeto basta rodar o comando:
+#### vagrant up
 dentro do diretório vagrant que possui o arquivo Vagrantfile
 
 Em seguida é necessário aguardar o provisionamento dos serviços que estão funcionando na seguinte arquitetura:
